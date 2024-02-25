@@ -32,7 +32,7 @@ header{
         margin-top:8px;
         opacity:0.8;
      }
-     #box p {
+     #box p:hover {
         max-width: 500px;
         margin: 32px auto ;
         font-size: 24px;
@@ -42,8 +42,20 @@ header{
         --subcor:rgba(246, 163, 246, 0.94);
      }
 }
-header div{
+.Links {
     text-align:center;
+.Links a{
+      color:white;
+      font-size: 32px;
+      line-height:30px;
+      margin:0 16px;
+      text-decoration:none;
+   }
+.Links a:hover {
+ color: var(--sub-cor);
+ transition:600ms;
+ font-size:32px;
+}
 }
 header div a {
        color:white;
