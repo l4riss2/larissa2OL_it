@@ -5,29 +5,43 @@
     border:0;
 }
 body{
-    background-color:black;
-}
-
-header div {
-   text-align: center;
+    background-color:white;
 }
 
 header{
     padding: 32px;
-    border-bottom: 5px solid var(--subcor);
-    background-color:white;
-    #box x{
+    border-bottom: blacks;
+    background-color:5 px rgb(122, 190, 222);
+    
+    header div {
+      text-align: center;
+   }
+   header div a {
+      color:white;
+      font-size:20px;
+      line-height:30px;
+      margin: 0 16px;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+
+}
+header div a:hover {
+color:rgb(232, 232, 18);
+transition:color 700ms;
+}
+    #box {
         text-align: center;
         padding:32px;
      }
-     #box img {
-        border-radius: 50%;
-        border: 5px solid white;
-        width:200px;
+     #box img{
+      border-radius:50%;
+      boder:2px solid rgb(30, 30, 210);
+     }
+      
      }
      #box h1{
-        font-size: 42px;
-        line-height: 52px;
+        font-size: 24px;
+        line-height: 24px;
         font-weight: bold;
         font-family: "Roboto", sans-serif;
      }
@@ -39,23 +53,7 @@ header{
         opacity:0.8;
         font-family: "Roboto", sans-serif;
      }
-     #box h3{
-      font-size: 24px;
-        line-height: 34px;
-        font-weight:normal; 
-        margin-top:6px;
-        opacity:0.8;
-        font-family: "Roboto", sans-serif;
-     }
-     #box h4{
-      font-size: 24px;
-        line-height: 34px;
-        font-weight:normal; 
-        margin-top:6px;
-        opacity:0.8;
-        font-family: "Roboto", sans-serif;
-     }
-     #box p:hover {
+      #box p:hover {
         max-width: 500px;
         margin: 32px auto ;
         font-size: 24px;
@@ -64,33 +62,4 @@ header{
      :root{
         --subcor:rgba(246, 163, 246, 0.94);
      }
-}
-.Links {
-    text-align:center;
-.Links a{
-      color:white;
-      font-size: 32px;
-      line-height:30px;
-      margin:0 16px;
-      text-decoration:none;
-   }
-.Links a:hover {
- color: var(--sub-cor);
- transition:600ms;
- font-size:32px;
-}
-}
-header div a {
-       color:white;
-       font-size:20px;
-       line-height:30px;
-       margin: 0 16px;
-       text-decoration: none;
-       font-family: "Roboto", sans-serif;
-
-}
-header div a:hover {
-color:green;
-transition:color 700ms;
-}
 
