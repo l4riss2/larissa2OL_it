@@ -1,65 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
 *{
     margin:0;
     padding:0;
     border:0;
 }
 body{
-    background-color:white;
+    background-color:#252525;
 }
-
 header{
-    padding: 32px;
-    border-bottom: blacks;
-    background-color:5 px rgb(122, 190, 222);
-    
-    header div {
-      text-align: center;
-   }
-   header div a {
-      color:white;
-      font-size:20px;
-      line-height:30px;
-      margin: 0 16px;
-      text-decoration: none;
-      font-family: "Roboto", sans-serif;
-
+    padding: 28px;
+    border-bottom:4px solid rgba(208, 95, 39, 0.905);
+    background-color:rgb(219, 212, 203);
+}
+header div{
+    text-align:center;
+}
+header div a {
+    color:black;
+    font-size:20px;
+    line-height:30px;
+    margin:0 16 px;
+    text-decoration:none;
+    font-family:'Anta', sans-serif;
 }
 header div a:hover {
-color:rgb(232, 232, 18);
-transition:color 700ms;
+    color:green;
+    transition:color 700ms;
 }
-    #box {
-        text-align: center;
-        padding:32px;
-     }
-     #box img{
-      border-radius:50%;
-      boder:2px solid rgb(30, 30, 210);
-     }
-      
-     }
-     #box h1{
-        font-size: 24px;
-        line-height: 24px;
-        font-weight: bold;
-        font-family: "Roboto", sans-serif;
-     }
-     #box h2{
-        font-size: 24px;
-        line-height: 34px;
-        font-weight:normal; 
-        margin-top:6px;
-        opacity:0.8;
-        font-family: "Roboto", sans-serif;
-     }
-      #box p:hover {
-        max-width: 500px;
-        margin: 32px auto ;
-        font-size: 24px;
-        line-height: 34px;
-     }
-     :root{
-        --subcor:rgba(246, 163, 246, 0.94);
-     }
+#box {
+    text-align:center;
+    padding:32px;
+}
+#box img{
+    border-radius:50%;
+    border:5 px solid yellow;
+    margin-bottom:32px;
+}
+#box h1{
+    color:orange;
+    font: size 24px;
+    line-height:52px;
+    font-family:'Anta', sans-serif;
+}
+#box h2{
+    color:orange;
+    font: size 24px;
+    line-height:34px;
+    font-family:'Anta', sans-serif;
+   }
 
