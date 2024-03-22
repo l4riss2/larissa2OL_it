@@ -34,8 +34,9 @@ header{
 }
 #box img{
     border-radius:50%;
-    border:5px solid rgb(206, 45, 45);
+    border:5px solid rgba(208, 95, 39, 0.905);
     margin-bottom:32px;
+    max-width: 420px;
 }
 #box h1{
     color:orange;
@@ -49,5 +50,6 @@ header{
     line-height:34px;
     font-family:'Anta', sans-serif;
    }
+
 
 
