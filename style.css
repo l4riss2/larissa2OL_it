@@ -11,20 +11,20 @@ body{
 header{
     padding: 28px;
     border-bottom:4px solid rgba(208, 95, 39, 0.905);
-    background-color:rgb(219, 212, 203);
+    background-color:whitesmoke;
 }
-header div{
+.links{
     text-align:center;
 }
-header div a {
+.links a {
     color:black;
     font-size:20px;
     line-height:30px;
-    margin:0 16 px;
+    margin: 0 20 px;
     text-decoration:none;
     font-family:'Anta', sans-serif;
 }
-header div a:hover {
+.links a:hover {
     color:green;
     transition:color 700ms;
 }
@@ -34,7 +34,7 @@ header div a:hover {
 }
 #box img{
     border-radius:50%;
-    border:5 px solid yellow;
+    border:5px solid rgb(206, 45, 45);
     margin-bottom:32px;
 }
 #box h1{
@@ -49,4 +49,5 @@ header div a:hover {
     line-height:34px;
     font-family:'Anta', sans-serif;
    }
+
 
