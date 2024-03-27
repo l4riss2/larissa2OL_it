@@ -73,4 +73,24 @@ header{
     height:100%;
     position:fixed;
     top:0;
+    opacity:0;
+    visibility:hidden;
+}
+.modal {
+    background-color: aliceblue;
+    width:90%;
+    height:90%;
+    margin:5vh auto;
+    position:relative;
+}
+.modal .close_modal span{
+    color:black;
+    position:absolute;
+    right:8px;
+    top:8px;
+    cursor:pointer;
+}
+.modal_overlay.active {
+    opacity:1;
+    visibility:visible;
 }
