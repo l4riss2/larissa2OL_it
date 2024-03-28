@@ -28,6 +28,22 @@ header{
     color:green;
     transition:color 700ms;
 }
+.linksFooter {
+    text-align: center;
+}
+.linksFooter a{
+    color:whitesmoke;
+    font-size:20px;
+    line-height:30px;
+    margin: 0 20 px;
+    text-decoration:none;
+    font-family:'Anta', sans-serif;}
+
+.linksFooter a:hover {
+    color:green;
+    transition:color 700ms;
+}
+
 #box {
     text-align:center;
     padding:32px;
@@ -52,21 +68,37 @@ header{
    }
 
 .cards {
- max-width: 500px;
+ max-width: 800px;
  margin:20px auto;
  display:grid;
- grid-template-columns:1fr 1fr;
- gap:20px;
+ grid-template-columns:1fr 1fr 1fr;
+ gap: 20px;
 }
 .card {
-    background-color:#252525;
+    background-color:white;
 }
 .card_image img {
     width:100%;
 }
+
 .card_content,.card_info{
-    padding:16px;
+    padding: 18px;
 }
+
+.card_info {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+.card_price {
+    background-color: orange;
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
 .modal_overlay {
     background-color: rgba(0, 0, 0, 0.7);
     width:100%;

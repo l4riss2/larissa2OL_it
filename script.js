@@ -6,3 +6,7 @@ for(let card of cards){
       modal_overlay.classList.add('active')
     })
 }
+
+document.querySelector('.close_modal').addEventListener("click",function(){
+  modal_overlay.classList.remove("active")
+})
