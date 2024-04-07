@@ -10,7 +10,7 @@ body{
 }
 .links{
     text-align:center;
-    padding: 25px;
+    padding: 20px;
     border-bottom:4px solid rgba(208, 95, 39, 0.905);
     background-color:whitesmoke;
 }
@@ -28,15 +28,15 @@ body{
 }
 .linksFooter {
     text-align: center;
+    padding-bottom: 20px;
     
 }
 .linksFooter a{
+    border-bottom: 2px solid #FFCC33;
     color:whitesmoke;
     font-size:20px;
     line-height:30px;
-    margin: 22px;
-    padding-top: 7px;
-    padding-bottom: 15px;
+    margin: 20px;
     text-decoration:none;
     font-family:'Anta', sans-serif;}
 
@@ -47,7 +47,7 @@ body{
 
 #box {
     text-align:center;
-    padding:32px;
+    padding:28px;
 }
 #box img{
     border-radius:50%;
@@ -76,10 +76,11 @@ body{
 
 
 .cards {
- max-width: 800px;
+ max-width: 700px;
+ max-height: 500px;
  margin:20px auto;
  display:grid;
- grid-template-columns:1fr 1fr 1fr;
+ grid-template-columns:1fr  ;
  gap: 20px;
 }
 .card {
@@ -88,7 +89,10 @@ body{
 .card_image img {
    width:100%;
 }
-
+.card_content p {
+    font: size 24px;
+    font-family:'Anta', sans-serif;
+}
 .card_content,.card_info{
     padding: 18px;
 }
@@ -140,3 +144,23 @@ body{
     position: absolute ;
     top:5%;
 }
+
+.linksFootervideos {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+.linksFootervideos a{
+    border-bottom: 3px solid #FFCC33;
+    color:whitesmoke;
+    font-size:20px;
+    line-height:30px;
+    margin: 22px;
+   
+    text-decoration:none;
+    font-family:'Anta', sans-serif;}
+
+.linksFootervideos a:hover {
+    color:green;
+    transition:color 700ms;}
